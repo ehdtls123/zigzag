@@ -1,12 +1,11 @@
 import "./App.scss";
-import { useState } from "react";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Categories from "./Pages/Categories/Categories";
 import Picks from "./Pages/Picks/Picks";
-import MyPage from "./Pages/Mypage/Mypage";
+import MyPage from "./Pages/MyPage/MyPage";
 
 const App = () => {
     const pages = [
