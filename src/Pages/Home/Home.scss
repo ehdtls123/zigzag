@@ -1,13 +1,96 @@
 .home-container {
     width: 100%;
     height: 100%;
+
     .home-wrapper {
         width: 100%;
 
         .home-swipers-banner {
             img {
                 width: 100%;
+            }
+        }
 
+        .home-categories-wrapper {
+            display: flex;
+            gap: 20px;
+            padding: 16px 10px;
+            overflow-x: scroll;
+
+            &::-webkit-scrollbar {
+                display: none; /* 크롬, 사파리, 오페라, 엣지 */
+            }
+            .home-categories {
+                gap: 10px;
+
+                .home-categories-img {
+                    img {
+                        width: 56px;
+                        height: 56px;
+                        border-radius: 20px;
+                    }
+                }
+
+                .home-categories-text {
+                    color: rgb(36, 39, 41);
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    font-size: 12px;
+
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .home-firstBuy-wrapper {
+            padding: 12px 16px 24px;
+
+            h4 {
+                font-size: 18px;
+                line-height: 22px;
+            }
+
+            p {
+                margin-top: 4px;
+                color: rgb(105, 113, 117);
+
+                font-size: 13px;
+                line-height: 16px;
+                margin-bottom: 25px;
+            }
+
+            .home-firstBuy-items {
+                display: flex;
+                justify-content: space-between;
+                overflow-x: scroll;
+                gap: 16px;
+
+                &::-webkit-scrollbar {
+                    display: none; /* 크롬, 사파리, 오페라, 엣지 */
+                }
+            }
+
+            .home-firstBuy-btn {
+                width: 100%;
+                color: rgb(36, 39, 41);
+                font-weight: bold;
+                font-size: 14px;
+                border: 1px solid rgb(210, 213, 214);
+                border-radius: 100px;
+                padding: 13px 20px;
+                margin: 24px 0;
+            }
+        }
+
+        .home-moreItem-wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            grid-gap: 14px;
+            padding: 20px;
+            overflow-x: scroll;
+            &::-webkit-scrollbar {
+                display: none; /* 크롬, 사파리, 오페라, 엣지 */
             }
         }
     }

@@ -1066,9 +1066,9 @@ fs.realpath@^1.0.0:
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
 fsevents@~2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
-  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -1172,7 +1172,7 @@ graphemer@^1.4.0:
 
 hamt_plus@1.0.2:
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/hamt_plus/-/hamt_plus-1.0.2.tgz#e21c252968c7e33b20f6a1b094cd85787a265601"
+  resolved "https://registry.npmjs.org/hamt_plus/-/hamt_plus-1.0.2.tgz"
   integrity sha512-t2JXKaehnMb9paaYA7J0BX8QQAY8lwfQ9Gjf4pg/mk4krt+cmwmU652HOoWonf+7+EQV97ARPMhhVgU1ra2GhA==
 
 has-bigints@^1.0.1, has-bigints@^1.0.2:
@@ -1723,7 +1723,7 @@ readdirp@~3.6.0:
 
 recoil@^0.7.7:
   version "0.7.7"
-  resolved "https://registry.yarnpkg.com/recoil/-/recoil-0.7.7.tgz#c5f2c843224384c9c09e4a62c060fb4c1454dc8e"
+  resolved "https://registry.npmjs.org/recoil/-/recoil-0.7.7.tgz"
   integrity sha512-8Og5KPQW9LwC577Vc7Ug2P0vQshkv1y3zG3tSSkWMqkWSwHmE+by06L8JtnGocjW6gcCvfwB3YtrJG6/tWivNQ==
   dependencies:
     hamt_plus "1.0.2"
@@ -1917,7 +1917,7 @@ supports-preserve-symlinks-flag@^1.0.0:
 
 swiper@^10.2.0:
   version "10.2.0"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-10.2.0.tgz#e7369ff56f4e10069f2244a4436f732b8925deb0"
+  resolved "https://registry.npmjs.org/swiper/-/swiper-10.2.0.tgz"
   integrity sha512-nktQsOtBInJjr3f5DicxC8eHYGcLXDVIGPSon0QoXRaO6NjKnATCbQ8SZsD3dN1Ph1RH4EhVPwSYCcuDRFWHGQ==
 
 text-table@^0.2.0:
